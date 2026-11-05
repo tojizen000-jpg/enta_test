@@ -1,0 +1,72 @@
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git statusgit log
+
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   rapport.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git add rapport.txt
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git commit -m "version 2"
+[master 4fc584d] version 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git statut
+git: 'statut' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git statut
+git: 'statut' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   rapport.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Disable this message with "git config set advice.addEmptyPathspec false"
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git add .
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$ git commit -m "version 2"
+[master ba92d9e] version 2
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+ESTD@PC19 UCRT64 ~/Desktop/douae (master)
+$
